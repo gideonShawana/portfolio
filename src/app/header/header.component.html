@@ -1,0 +1,35 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class = "col-sm-12 p-flex p-flex-align-center p-flex-jc-sb">
+                <ul>
+                    <li class="p-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </li>
+                    <li>
+                        <img class="p-cursor" src="assets/img/h_search.png" alt="The icon for search" width="20"/>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a routerLink="#" [routerLink]="['/']" [routerLinkActive]="['is-active']">Home</a>
+                    </li>
+                    <li>
+                        <a routerLink="/app/about">About</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/project']">Project</a>
+                    </li>
+                    <li>
+                        <a routerLink="/service">Service</a>
+                    </li>
+                    <li>
+                        <a routerLink="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

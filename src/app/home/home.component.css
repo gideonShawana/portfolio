@@ -1,0 +1,8 @@
+.p-profile{
+    background: url(/assets/img/giddy.jpeg);
+    width: 150%;
+    height: 450px;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
